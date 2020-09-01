@@ -1,0 +1,30 @@
+body{
+    background-color: #212f3d;
+}
+#h567{
+    text-decoration: underline;
+    text-align: center;
+    color:  #d6dbdf  ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 80px;
+}
+
+.box{
+    height: 80%;
+    width: 80%;
+    margin-top: 50px;  
+    margin-left: 158px;   
+    background-image: url("action-blur-bulb-dark-355904.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow:1px 2px 9px whitesmoke;
+    animation: myanimation 20s infinite linear;
+   
+}
+@keyframes myanimation{
+    0%{ background-image: url("action-blur-bulb-dark-355904.jpg");}
+  15%{ background-image: url("black-flat-screen-computer-monitor-1714208.jpg");}
+  45%{background-image: url("closeup-photo-of-black-and-blue-keyboard-1194713.jpg");}
+  55%{background-image: url("two-computer-flat-screen-monitors-turned-on-777001.jpg");}
+}
